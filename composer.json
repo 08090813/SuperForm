@@ -1,0 +1,20 @@
+{
+    "name": "coder/super-form",
+    "description": "this is super form",
+    "type": "library",
+    "require": {
+        "php": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Coder",
+            "email": "416716328@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SuperForm\\": "src/"
+        }
+    }
+}
