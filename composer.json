@@ -3,7 +3,8 @@
     "description": "this is super form",
     "type": "library",
     "require": {
-        "php": "^7.2"
+        "php": "^7.2",
+        "topthink/framework":"5.1.*"
     },
     "authors": [
         {
@@ -14,7 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "SuperForm\\": "src/"
+            "SuperForm\\": "src"
         }
     }
 }
